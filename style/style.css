@@ -78,3 +78,92 @@ padding-right: 20px;
   font-weight: 700;
   src: url('../fonts/livvic-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* BUTTONS  */
+.button {
+  padding: 9px 32px 11px;
+  margin: 0;
+  border: 0;
+  border-radius: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  transition: transform 0.3s ;
+}
+.button:active {
+  transform: translateY(3px);
+}
+.button--green {
+  color: var(--white);
+  background-color: transparent;
+  border: 2px solid var(--white);
+}
+.button--green:hover {
+  color: var(--dark-green);
+  background-color: var(--white);
+}
+.button--reddish {
+  color: var(--state-green);
+  background-color: transparent;
+  border: 2px solid var(--state-green);
+}
+.button--reddish:hover {
+  color: var(--white);
+  background-color: var(--state-green);
+}
+
+
+
+/* SITE HEADER  */
+.site-header {
+  padding-top: 73px;
+  padding-bottom: 120px;
+  background-color: var(--midnight-green);
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+
+}
+.site-header__main-link {
+  text-decoration: none;
+}
+.site-header__main-link:hover {
+  opacity: 0.8;
+}
+.site-header__main-link:active {
+  opacity: 0.6;
+}
+.logo {
+  margin-right: 80px;
+}
+.logo__img {
+  display: block;
+  width: 160px;
+  height: 40px;
+  object-fit: contain;
+}
+.sitenav {
+ display: flex;
+ align-items: center;
+ margin-right: auto;
+}
+.sitenav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sitenav__list:not(:last-child){
+  margin-right: 40px;
+}
+.sitenav__link {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.sitenav__link:hover {
+  color: var(--light-colar);
+}
+.sitenav__link:active {
+  opacity: 0.6;
+}
