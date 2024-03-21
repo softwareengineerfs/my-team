@@ -1,5 +1,6 @@
 /* CUSTOM PROPS  */
 :root {
+  --white: rgb(255, 255, 255) ;
   --midnight-green: #014e56;
   --light-colar: #f67e7e;
   --rapture-blue: #79c8c7;
@@ -27,8 +28,8 @@ body {
  margin: 0%;
  height: 100%;
  font-family: 'Livvic',"Arial",sans-serif;
- background-color: black;
- color: rgb(255, 255, 255);
+ background-color: #fff;
+ color: var(--white);
  font-size: 15px;
  font-weight: 600;
  line-height: 25px;
@@ -78,6 +79,9 @@ padding-right: 20px;
   font-weight: 700;
   src: url('../fonts/livvic-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+
+
 /* BUTTONS  */
 .button {
   padding: 9px 32px 11px;
@@ -214,3 +218,72 @@ padding-right: 20px;
 }
 
 
+
+
+/* SITE FOOTER  */
+.site-footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: var(--dark-green);
+}
+.site-footer__container {
+  display: flex;
+  align-items: center;
+}
+.site-footer__main-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 125px;
+}
+.site-footer__main-link {
+  margin-bottom: 25px;
+}
+
+
+.site-footer__main-link-inner {
+  display: flex;
+  align-items: center;
+}
+.sitenav-footer {
+  padding: 0;
+  margin: 0%;
+}
+.site-footer__info {
+  width: 445px;
+  height: 100px;
+  margin-right: auto;
+  opacity: 0.6;
+}
+.site-footer__info-text {
+  margin: 0%;
+  color: var(--white);
+  font-size: 15px;
+  line-height: 25px;
+}
+.site-footer__socials {
+  display: flex;
+  flex-direction: column;
+}
+.site-footer__socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.site-footer__socials-list-item:not(:last-child) {
+   margin-right: 16px;
+}
+.site-footer__socials-list-item:hover {
+  color: var(--light-colar);
+}
+.site-footer__socials-list-item:active {
+  opacity: 0.6;
+}
+.site-footer__socials-text {
+  margin: 0%;
+  margin-top: 51px;
+  color: var(--white);
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: capitalize;
+  opacity: 0.6;
+}
