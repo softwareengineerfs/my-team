@@ -238,6 +238,8 @@ padding-right: 20px;
 
 /* SITE FOOTER  */
 .site-footer {
+  position: relative;
+  z-index: 9999;
   padding-top: 48px;
   padding-bottom: 48px;
   background-color: var(--dark-green);
@@ -311,6 +313,7 @@ padding-right: 20px;
   background-color: var(--light-colar);
 }
 .cta__container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -322,6 +325,15 @@ padding-right: 20px;
   font-size: 48px;
   font-weight: 700;
   line-height: 48px;
+}
+
+.cta__posture {
+  position: absolute;
+  bottom: -176px;
+  left: -140px;
+  width: 200px;
+  height: 244px;
+
 }
 
 
