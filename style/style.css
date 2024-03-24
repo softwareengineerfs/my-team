@@ -188,12 +188,12 @@ padding-right: 20px;
 }
 .hero__content {
   display: flex;
-  margin-right: 30px;
   width: 635px;
   height: 200px;
 }
 .hero__content-title {
   margin: 0;
+  margin-right: 30px;
   font-size: 100px;
   font-weight: 700;
   line-height: 100px;
@@ -201,12 +201,10 @@ padding-right: 20px;
 .hero__content-title-reddish {
   color: var(--light-colar);
 }
-.hero__contanet-next {
-  width: 445px;
-  height: 112px;
-}
 .hero__content-text {
   margin: 0;
+  width: 445px;
+  height: 112px;
   font-size: 18px;
   line-height: 28px;
 
