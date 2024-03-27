@@ -766,6 +766,7 @@ padding-right: 20px;
     background-color: var(--midnight-green);
   }
   .contact__page {
+    position: relative;
     display: flex;
     align-items: center;
   }
@@ -895,3 +896,18 @@ select:-webkit-autofill:focus {
   display: none;
 }
 
+/* POSTURES  */
+.contact__page-left-posture {
+  position: absolute;
+  top: 0;
+  left: -302px;
+  width: 200px;
+  height: 200px;
+}
+.contact__page-right-posture {
+  position: absolute;
+  bottom: -114px;
+  right: -315.5px;
+  width: 225px;
+  height: 200px;
+}
